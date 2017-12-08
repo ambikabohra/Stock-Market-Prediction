@@ -30,3 +30,28 @@ $ pip install matplotlib
 ```bash
 $ pip install seaborn
 ```
+## Workflow and System Architecture
+
+![workflow](https://github.com/ambikabohra/Stock-Market-Prediction/blob/master/Images/workflow1.png)
+
+## Prediction 
+
+Following algorithms are used for time series analysis:
+
+1. Linear regression
+2. Support Vector Regression (SVR)
+3. Long Short Term Memory (LSTM)
+4. Autoregressive Integrated Moving Average (ARIMA)
+5. Random Forest
+
+## Comparision of the models used 
+
+For 1 company (3IINFOTECH)
+
+![comparision](https://github.com/ambikabohra/Stock-Market-Prediction/blob/master/Images/graphs.png)
+
+### Conclusion
+
+1. Algorithms compared using RMSE calculated for each model.  
+2. LSTM and Arima model gave lowest RMSE and highest accurate prediction. So these are winning algorithms.
+3. SVR gave highest RMSE.
